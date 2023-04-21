@@ -5,7 +5,8 @@ metadata:
   name: 3-demo
   namespace: flux-system
 spec:
-  interval: 10s
+  interval: 9s
   ref:
     branch: 3-demo
   url: https://github.com/mcabrito/bb-app-source
+9
