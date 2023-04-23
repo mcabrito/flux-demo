@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-  - name: kustomization-8-demo
+  - name: 8-demo
   healthChecks:
   - kind: Deployment
     name: block-buster-deployment-7-7-0
