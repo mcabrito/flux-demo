@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-  - name: infra-database-kustomiza-git-mysql
+  - name: infra-database-kustomize-git-mysql
   healthChecks:
   - kind: Deployment
     name: block-buster-deployment-7-7-0
